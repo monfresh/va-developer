@@ -4222,6 +4222,16 @@ input[type="submit"].btn.btn-mini {
   filter: alpha(opacity=100);
 }
 
+.legal {
+  margin-bottom: 20px;
+  margin-left: 0;
+  list-style: none;
+}
+
+.legal > li > a {
+  display: block;
+}
+
 .tabs-stacked .open > a:hover,
 .tabs-stacked .open > a:focus {
   border-color: #999999;
