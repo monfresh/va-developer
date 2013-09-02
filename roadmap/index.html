@@ -7,7 +7,7 @@ overview: true
 <h2>Roadmap</h2>
 <p>This section is all about providing you with a roadmap of where we are going with this developers area, as well as what changes we've made in accordance with our roadmap. This section provides transparency into how the VA developer program is evolving, and give you a heads up on where we are going, hopefully you will provide feedback that we can integrate into the roadmap as well.</p>
 <div class="row">
-    <div class="span5">
+    <div class="span6">
         
         {% raw  %}
         <script id="roadmapListingTemplate" type="text/template">       
@@ -34,7 +34,7 @@ overview: true
         <ul id="roadmapListing"></ul>
         
     </div>
-    <div class="span5">
+    <div class="span6">
         
         {% raw  %}
         <script id="changelogListingTemplate" type="text/template">       
@@ -45,7 +45,7 @@ overview: true
         <script type="text/javascript">
         function listChangelog()
             {
-            $.getJSON('chnagelog.json', function(data) {
+            $.getJSON('changelog.json', function(data) {
                 toggle = 0;
                  $.each(data['Changelog'], function(key, val) {
                     var template = $('#changelogListingTemplate').html();
