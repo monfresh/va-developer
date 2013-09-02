@@ -4223,19 +4223,17 @@ input[type="submit"].btn.btn-mini {
 }
 
 .legal {
-  margin-bottom: 20px;
-  margin-left: 0;
   list-style: none;
   text-align: center;
   list-style-type: none;
 }
 
-.legal li {
+.legal ul li {
   display: inline;
   padding: 5px;
 }
 
-.legal > li > a {
+.legal ul li a {
   display: block;
 }
 
