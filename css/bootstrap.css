@@ -4228,13 +4228,9 @@ input[type="submit"].btn.btn-mini {
   list-style-type: none;
 }
 
-.legal ul li {
+.legal li {
   display: inline;
   padding: 5px;
-}
-
-.legal ul li a {
-  display: block;
 }
 
 .tabs-stacked .open > a:hover,
