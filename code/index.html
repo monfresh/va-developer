@@ -36,8 +36,19 @@ function listCode()
              
             var template = $('#codeListingTemplate').html();
             var html = Mustache.to_html(template, val);
-            $('#codeListing').append(html);  
-            
+            $('#codeListing').append(html);          
+                                    
+            });
+        });
+    } 
+listCode(); 
+
+function addGists()
+    {
+    $.getJSON('code.json', function(data) {
+        toggle = 0;
+         $.each(data['Code'], function(key, val) {
+             
             id = val['Code_ID'];
            // alert(id);
             gist = val['Gist'];  
@@ -52,6 +63,6 @@ function listCode()
             });
         });
     } 
-listCode(); 
+addGists(); 
 </script>
 <!-- End List Code Simples--->
