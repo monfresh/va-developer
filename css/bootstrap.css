@@ -4226,8 +4226,11 @@ input[type="submit"].btn.btn-mini {
   margin-bottom: 20px;
   margin-left: 0;
   list-style: none;
-  display: inline;
   text-align: center;
+}
+
+.legal > li {
+  display: inline;
 }
 
 .legal > li > a {
