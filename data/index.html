@@ -46,9 +46,7 @@ overview: true
                 $('#dataListing').append(html); 
                 
                 id = val['identifier'];
-                modified = val['modified'];
-                dateFormat(modified, "m/dd/yy");
-                $('#listing-'+id).text = modified;
+
                 $.each(val['distribution'], function(key2, val2) {   
                     
                     var template2 = $('#dataAccessTemplate').html();
