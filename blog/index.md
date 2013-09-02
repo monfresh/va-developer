@@ -12,7 +12,7 @@ published: true
 
 {{ post.date | date:"%m-%d-%Y" }}
 
-<img src="{{ post.image }}" width="100" align="right" style="padding: 20px;" />
+<img src="{{ post.image }}" width="175" align="right" style="padding: 20px;" />
 {{ post.content | strip_html | truncatewords: 200     }}...[View Full Blog Post](/va-developer{{ post.url }})    
 
 - - -
