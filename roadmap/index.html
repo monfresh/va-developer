@@ -1,0 +1,66 @@
+---
+layout: default
+title: Support
+overview: true
+---
+
+<h2>Roadmap</h2>
+<p>This section is all about providing you with a roadmap of where we are going with this developers area, as well as what changes we've made in accordance with our roadmap. This section provides transparency into how the VA developer program is evolving, and give you a heads up on where we are going, hopefully you will provide feedback that we can integrate into the roadmap as well.</p>
+<div class="row-fluid">
+    <div class="span1">&nbsp;</div>
+    <div class="span5">
+        
+        {% raw  %}
+        <script id="roadmapListingTemplate" type="text/template">       
+            <li><strong>{{Name}}</strong>&nbsp;<i>({{Name}})</i>&nbsp;-&nbsp;{{Description}}</li>                                                                                               
+        </script>
+        {% endraw %}        
+        
+        <script type="text/javascript">
+        function listAPIs()
+            {
+            $.getJSON('roadmap.json', function(data) {
+                toggle = 0;
+                 $.each(data['Roadmap'], function(key, val) {
+                    var template = $('#roadmapListingTemplate').html();
+                    var html = Mustache.to_html(template, val);
+                    $('#roadmapListing').append(html);                          
+                    });
+                });
+            } 
+        listAPIs();
+        </script>      
+
+        <h2>Roadmap</h2>
+        <ul id="roadmapListing"></ul>
+        
+    </div>
+    <div class="span5">
+        
+        {% raw  %}
+        <script id="changelogListingTemplate" type="text/template">       
+            <li><strong>{{Name}}</strong>&nbsp;<i>({{Name}})</i>&nbsp;-&nbsp;{{Description}}</li>                                                                                               
+        </script>
+        {% endraw %}        
+        
+        <script type="text/javascript">
+        function listAPIs()
+            {
+            $.getJSON('chnagelog.json', function(data) {
+                toggle = 0;
+                 $.each(data['Changelog'], function(key, val) {
+                    var template = $('#changelogListingTemplate').html();
+                    var html = Mustache.to_html(template, val);
+                    $('#changelogListing').append(html);                          
+                    });
+                });
+            } 
+        listAPIs();
+        </script>      
+
+        <h2>Roadmap</h2>
+        <ul id="changelogListing"></ul>
+        
+    </div>
+    <p>To provide feedback on our roadmap, visit the <a href="../support/">support section</a>, and provide us feedback through one of our existing support channels.</p>
+</div>
