@@ -4229,8 +4229,9 @@ input[type="submit"].btn.btn-mini {
   text-align: center;
 }
 
-.legal > li {
+.legal li {
   display: inline;
+  padding: 5px;
 }
 
 .legal > li > a {
