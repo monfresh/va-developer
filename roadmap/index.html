@@ -6,8 +6,7 @@ overview: true
 
 <h2>Roadmap</h2>
 <p>This section is all about providing you with a roadmap of where we are going with this developers area, as well as what changes we've made in accordance with our roadmap. This section provides transparency into how the VA developer program is evolving, and give you a heads up on where we are going, hopefully you will provide feedback that we can integrate into the roadmap as well.</p>
-<div class="row-fluid">
-    <div class="span1">&nbsp;</div>
+<div class="row">
     <div class="span5">
         
         {% raw  %}
@@ -17,7 +16,7 @@ overview: true
         {% endraw %}        
         
         <script type="text/javascript">
-        function listAPIs()
+        function listRoadmap()
             {
             $.getJSON('roadmap.json', function(data) {
                 toggle = 0;
@@ -28,7 +27,7 @@ overview: true
                     });
                 });
             } 
-        listAPIs();
+        listRoadmap();
         </script>      
 
         <h2>Roadmap</h2>
@@ -44,7 +43,7 @@ overview: true
         {% endraw %}        
         
         <script type="text/javascript">
-        function listAPIs()
+        function listChangelog()
             {
             $.getJSON('chnagelog.json', function(data) {
                 toggle = 0;
@@ -55,12 +54,12 @@ overview: true
                     });
                 });
             } 
-        listAPIs();
+        listChangelog();
         </script>      
 
-        <h2>Roadmap</h2>
+        <h2>Changelog</h2>
         <ul id="changelogListing"></ul>
         
     </div>
-    <p>To provide feedback on our roadmap, visit the <a href="../support/">support section</a>, and provide us feedback through one of our existing support channels.</p>
 </div>
+    <p>To provide feedback on our roadmap, visit the <a href="../support/">support section</a>, and provide us feedback through one of our existing support channels.</p>
