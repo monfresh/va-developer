@@ -11,7 +11,7 @@ overview: true
         
         {% raw  %}
         <script id="roadmapListingTemplate" type="text/template">       
-            <li><strong>{{Name}}</strong>&nbsp;<i>({{Name}})</i>&nbsp;-&nbsp;{{Description}}</li>                                                                                               
+            <li><strong>{{Name}}</strong>&nbsp;<i>({{Date}})</i>&nbsp;-&nbsp;{{Description}}</li>                                                                                               
         </script>
         {% endraw %}        
         
@@ -31,7 +31,7 @@ overview: true
         </script>      
 
         <h3>Roadmap</h3>
-        <div style="height: 400px; overflow: auto;">
+        <div style="height: 300px; overflow: auto;">
             <ul id="roadmapListing"></ul>
         </div>
         
@@ -40,7 +40,7 @@ overview: true
         
         {% raw  %}
         <script id="changelogListingTemplate" type="text/template">       
-            <li><strong>{{Name}}</strong>&nbsp;<i>({{Name}})</i>&nbsp;-&nbsp;{{Description}}</li>                                                                                               
+            <li><strong>{{Name}}</strong>&nbsp;<i>({{Date}})</i>&nbsp;-&nbsp;{{Description}}</li>                                                                                               
         </script>
         {% endraw %}        
         
@@ -60,7 +60,7 @@ overview: true
         </script>      
 
         <h3>Changelog</h3>
-        <div style="height: 400px; overflow: auto;">
+        <div style="height: 300px; overflow: auto;">
             <ul id="changelogListing"></ul>
         </div>
         
