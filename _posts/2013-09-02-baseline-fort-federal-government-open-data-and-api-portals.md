@@ -27,15 +27,15 @@ To start with I've included 20 of what I consider essential API building blocks:
 * Code
 * Gallery
 * Support
-* 	Self-Service
-* 		Stack Exchange
-* 		Quora
-* 	Direct Support
-* 		Issue Management
-* 		Twitter
-* 		LinkedIn
-* 		Facebook
-* 		Google+
+*     Self-Service
+*         Stack Exchange
+*         Quora
+*     Direct Support
+*         Issue Management
+*         Twitter
+*         LinkedIn
+*         Facebook
+*         Google+
 * Roadmap
 * Changelog
 * Blog
