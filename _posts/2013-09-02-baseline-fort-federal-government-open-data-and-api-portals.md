@@ -7,6 +7,7 @@ published: true
 
 # Baseline for Federal Government Open Data and API Portals
 08/20/2013
+
 <img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-portal.jpg" alt="" width="275" align="right" />
 I have a whole list of projects around open data and APIs at the Department of Veterans Affairs (VA). Additionally I have numerous other open data and API projects I'd like to tackle across other federal agencies. As I do with other areas of my work, I needed a standardized way to stabilize the datasets and APis I will need for my projects, in the same way any open data and API provider should do for their consumers.
 
@@ -26,15 +27,15 @@ To start with I've included 20 of what I consider essential API building blocks:
 * Code
 * Gallery
 * Support
-	* Self-Service
-		* Stack Exchange
-		* Quora
-	* Direct Support
-		* Issue Management
-		* Twitter
-		* LinkedIn
-		* Facebook
-		* Google+
+* 	Self-Service
+* 		Stack Exchange
+* 		Quora
+* 	Direct Support
+* 		Issue Management
+* 		Twitter
+* 		LinkedIn
+* 		Facebook
+* 		Google+
 * Roadmap
 * Changelog
 * Blog
