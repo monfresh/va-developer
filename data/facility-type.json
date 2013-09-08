@@ -1,25 +1,25 @@
 {
-  "Facility_Types": [
+  "facility_types": [
     {
-      "Type": "Benefits Office"
+      "type": "Benefits Office"
     },
     {
-      "Type": "Cemetery"
+      "type": "Cemetery"
     },
     {
-      "Type": "Hospital"
+      "type": "Hospital"
     },
     {
-      "Type": "Outpatient Clinic"
+      "type": "Outpatient Clinic"
     },
     {
-      "Type": "VA Central Office"
+      "type": "VA Central Office"
     },
     {
-      "Type": "Vet Center"
+      "type": "Vet Center"
     },
     {
-      "Type": "VISN Office"
+      "type": "VISN Office"
     }
   ]
 }

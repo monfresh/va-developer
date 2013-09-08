@@ -2,7 +2,7 @@
     "apiVersion": "1.0",
     "swaggerVersion": "1.2",
     "basePath": "http://api.va.apievangelist.com/v1",
-    "resourcePath": "/resources",
+    "resourcePath": "/programs",
     "produces": [
         "application/json"
     ],
@@ -15,7 +15,7 @@
                     "summary": "Pulls a listing of some of the VA programs for veterans",
                     "notes": "Returns a list of VA programs, allowing you to filter by state, type and keyword query. You can also apply a custom callback to the JSON response.",
                     "nickname": "getPrograms",
-                    "type": "Programs",
+                    "type": "programs",
                     "parameters": [
                         {
                             "name": "query",
@@ -55,13 +55,13 @@
             ]
         },
         {
-            "path": "/program/{id}",
+            "path": "/programs/{id}",
             "operations": [
                 {
                     "method": "GET",
                     "summary": "Retrieve a individual program using it's ID",
                     "notes": "Returns a programs full detail",
-                    "type": "Program",
+                    "type": "programs",
                     "nickname": "getProgram",
                     "produces": [
                         "application/json"
@@ -90,14 +90,14 @@
             ]
         },
         {
-            "path": "/program/types/",
+            "path": "/programs/types/",
             "operations": [
                 {
                     "method": "GET",
                     "summary": "Pulls a listing of the types of VA program",
                     "notes": "Returns a list of VA program types. You can also apply a custom callback to the JSON response.",
                     "nickname": "getProgramTypes",
-                    "type": "ProgramType",
+                    "type": "programstype",
                     "parameters": [
                         {
                             "name": "callback",
@@ -122,74 +122,51 @@
         }
     ],
     "models": {
-        "Programs": {
-            "id": "Programs",
+        "programs": {
+            "id": "programs",
             "properties": {
-                "Program_ID": {
+                "program_id": {
                     "type": "integer"
                 },
-                "Facility_ID": {
+                "facility_id": {
                     "type": "integer"
                 },
-                "Facility_Name": {
+                "facility_name": {
                     "type": "string"
                 },
-                "Program_Name": {
+                "program_name": {
                     "type": "string"
                 },
-                "Type": {
+                "type": {
                     "type": "string"
                 },
-                "State": {
+                "address": {
+                    "type": "string"
+                },
+                "city": {
+                    "type": "string"
+                },
+                "state": {
+                    "type": "string"
+                },
+                "postal_code": {
+                    "type": "string"
+                },
+                "phone": {
+                    "type": "string"
+                },
+                "contact_name": {
+                    "type": "string"
+                },
+                "contact_phone": {
                     "type": "string"
                 }
             }
         },
-        "Program": {
-            "id": "Program",
+        "programstype": {
+            "id": "programstype",
             "properties": {
-                "Program_ID": {
-                    "type": "integer"
-                },
-                "Facility_ID": {
-                    "type": "integer"
-                },
-                "Facility_Name": {
-                    "type": "string"
-                },
-                "Program_Name": {
-                    "type": "string"
-                },
-                "Type": {
-                    "type": "string"
-                },
-                "Address": {
-                    "type": "string"
-                },
-                "City": {
-                    "type": "string"
-                },
-                "State": {
-                    "type": "string"
-                },
-                "Postal_Code": {
-                    "type": "string"
-                },
-                "Phone": {
-                    "type": "string"
-                },
-                "Contact_Name": {
-                    "type": "string"
-                },
-                "Contact_Phone": {
-                    "type": "string"
-                }
-            }
-        },
-        "ProgramType": {
-            "id": "ProgramType",
-            "properties": {
-                "Type": {
+                "type": {
                     "type": "string"
                 }
             }

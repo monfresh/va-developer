@@ -5,7 +5,7 @@ overview: Gallery
 ---
 
 <ul class="toolbar">
-    <li>{"<a href="http://kinlane.github.io/va-developer/gallery/gallery.json" title="JSON" target="_blank">JSON</a>"}</li>
+    <li>{"<a href="http://kinlane.github.io/va-developer/data/gallery.json" title="JSON" target="_blank">JSON</a>"}</li>
 </ul>
 <h2>Gallery</h2>
 <p>Here are some examples of what is possible with developer around VA APIs and data. This gallery is not limited to web and mobile applications, but also contain visualizations, spreadsheet integrations and much more.</p>
@@ -44,7 +44,7 @@ overview: Gallery
 <script type="text/javascript">
 function listGallery()
     {
-    $.getJSON('gallery.json', function(data) {
+    $.getJSON('/va-developer/data/gallery.json', function(data) {
         toggle = 0;
          $.each(data['Gallery'], function(key, val) {
             var template = $('#galleryListingTemplate').html();

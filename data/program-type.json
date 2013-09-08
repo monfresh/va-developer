@@ -1,10 +1,10 @@
 {
-  "Program_Types": [
+  "program_types": [
     {
-      "Type": "Post Traumatic Stress Disorder (PTSD)"
+      "type": "Post Traumatic Stress Disorder (PTSD)"
     },
     {
-      "Type": "Substance Use Disorder (SUD)"
+      "type": "Substance Use Disorder (SUD)"
     }
   ]
 }

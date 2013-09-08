@@ -60,27 +60,27 @@
         },
         {
             "Name": "Code",
-            "URL": "http://kinlane.github.io/va-developer/code/code.json"
+            "URL": "http://kinlane.github.io/va-developer/data/code.json"
         },
         {
             "Name": "Gallery",
-            "URL": "http://kinlane.github.io/va-developer/gallery/gallery.json"
+            "URL": "http://kinlane.github.io/va-developer/data/gallery.json"
         },
         {
             "Name": "Support",
-            "URL": "http://kinlane.github.io/va-developer/support/support.json"
+            "URL": "http://kinlane.github.io/va-developer/data/support.json"
         },
         {
             "Name": "Roadmap",
-            "URL": "http://kinlane.github.io/va-developer/roadmap/roadmap.json"
+            "URL": "http://kinlane.github.io/va-developer/data/roadmap.json"
         },
         {
             "Name": "Changelog",
-            "URL": "http://kinlane.github.io/va-developer/roadmap/changelog.json"
+            "URL": "http://kinlane.github.io/va-developer/data/changelog.json"
         },
         {
             "Name": "Legal",
-            "URL": "http://kinlane.github.io/va-developer/legal/legal.json"
+            "URL": "http://kinlane.github.io/va-developer/data/legal.json"
         }
     ]
 }

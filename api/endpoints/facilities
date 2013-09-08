@@ -2,7 +2,7 @@
     "apiVersion": "1.0",
     "swaggerVersion": "1.2",
     "basePath": "http://api.va.apievangelist.com/v1",
-    "resourcePath": "/resources",
+    "resourcePath": "/facilities",
     "produces": [
         "application/json"
     ],
@@ -15,7 +15,7 @@
                     "summary": "Finds all VA facilities",
                     "notes": "Returns a list of all VA facilities, allowing you to filter by state, type, region and keyword query. You can also apply a custom callback to the JSON response.",
                     "nickname": "getFacilities",
-                    "type": "Facilities",
+                    "type": "facilities",
                     "parameters": [
                         {
                             "name": "query",
@@ -71,13 +71,13 @@
             ]
         },
         {
-            "path": "/facility/{id}",
+            "path": "/facilities/{id}",
             "operations": [
                 {
                     "method": "GET",
                     "summary": "Retrieve a facility using it's ID",
                     "notes": "Returns a facility detail",
-                    "type": "Facility",
+                    "type": "facilities",
                     "nickname": "getFacility",
                     "produces": [
                         "application/json"
@@ -114,14 +114,14 @@
             ]
         },
         {
-            "path": "/facility/types/",
+            "path": "/facilities/types/",
             "operations": [
                 {
                     "method": "GET",
                     "summary": "Retrieve a listing of facility types.",
                     "notes": "Returns a list of all VA facility types, You can also apply a custom callback to the JSON response.",
-                    "nickname": "getFacilityTypes",
-                    "type": "FacilityType",
+                    "nickname": "getfacilitiestypes",
+                    "type": "facilitiestype",
                     "parameters": [
                         {
                             "name": "callback",
@@ -147,85 +147,62 @@
     ],
     "models": {
         "Facilities": {
-            "id": "Facilities",
+            "id": "facilities",
             "properties": {
-                "Facility_ID": {
+                "facility_id": {
                     "type": "integer"
                 },
-                "Name": {
+                "station_id": {
+                    "type": "integer"
+                },
+                "division": {
                     "type": "string"
                 },
-                "Region": {
+                "name": {
                     "type": "string"
                 },
-                "Type": {
+                "region": {
                     "type": "string"
                 },
-                "State": {
+                "type": {
                     "type": "string"
                 },
-                "URL": {
+                "address": {
+                    "type": "string"
+                },
+                "city": {
+                    "type": "string"
+                },
+                "state": {
+                    "type": "string"
+                },
+                "postal_code": {
+                    "type": "string"
+                },
+                "phone": {
+                    "type": "string"
+                },
+                "fax": {
+                    "type": "string"
+                },
+                "latitude": {
+                    "type": "string"
+                },
+                "longitude": {
+                    "type": "string"
+                },
+                "description": {
+                    "type": "string"
+                },
+                "url": {
                     "type": "string"
                 }
             }
         },
-        "Facility": {
-            "id": "Facility",
+        "facilitiestype": {
+            "id": "facilitiestype",
             "properties": {
-                "Facility_ID": {
-                    "type": "integer"
-                },
-                "Station_ID": {
-                    "type": "integer"
-                },
-                "Division": {
-                    "type": "string"
-                },
-                "Name": {
-                    "type": "string"
-                },
-                "Region": {
-                    "type": "string"
-                },
-                "Type": {
-                    "type": "string"
-                },
-                "Address": {
-                    "type": "string"
-                },
-                "City": {
-                    "type": "string"
-                },
-                "State": {
-                    "type": "string"
-                },
-                "Postal_Code": {
-                    "type": "string"
-                },
-                "Phone": {
-                    "type": "string"
-                },
-                "Fax": {
-                    "type": "string"
-                },
-                "Latitude": {
-                    "type": "string"
-                },
-                "Longitude": {
-                    "type": "string"
-                },
-                "Description": {
-                    "type": "string"
-                },
-                "URL": {
-                    "type": "string"
-                }
-            }
-        },
-        "FacilityType": {
-            "id": "FacilityType",
-            "properties": {
-                "Type": {
+                "type": {
                     "type": "string"
                 }
             }
