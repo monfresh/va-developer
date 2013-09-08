@@ -83,7 +83,7 @@ overview: true
         <script type="text/javascript">
         function listCode()
             {
-            $.getJSON('code/code.json', function(data) {
+            $.getJSON('data/code.json', function(data) {
                 toggle = 0;
                  $.each(data['Code'], function(key, val) {
                     var template = $('#codeListingTemplate').html();
