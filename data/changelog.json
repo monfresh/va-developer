@@ -1,6 +1,16 @@
 {
     "Changelog": [
         {
+            "Name": "Put all JSON files into /data",
+            "Date": "9/08/2013",
+            "Description": "I put all the JSOn files into central /data folder, except for api.json, data.json and sitemap.json."
+        },    
+        {
+            "Name": "Standardized API interface and data models",
+            "Date": "9/08/2013",
+            "Description": "I sstandardized the API endpoints and data models somewhat and stopped programmtically generating them for a while, until I stabilize the approach."
+        },
+        {
             "Name": "Setting up the Github Repository",
             "Date": "9/01/2013",
             "Description": "I setup a Github repository that is being used to host this entire developer portal."
