@@ -4,17 +4,17 @@
   "apis": [
     {
     	"name": "VA Facilities",
-      	"path": "http://kinlane.github.io/va-developer/api/endpoints/facilities",
+      	"path": "http://api.va.publicprivatesector.org/swagger/va-data/facilities/facilities",
       	"description": "Resources about Department of Veterans Affairs facilities"
     },
     {
     	"name": "VA Programs",
-      	"path": "http://kinlane.github.io/va-developer/api/endpoints/programs",
+      	"path": "http://api.va.publicprivatesector.org/swagger/va-data/press/press",
       	"description": "Resources about Department of Veteransn Affairs programs"
     },
     {
     	"name": "VA Press Releases",
-      	"path": "http://kinlane.github.io/va-developer/api/endpoints/press",
+      	"path": "http://api.va.publicprivatesector.org/swagger/va-data/programs/programs",
       	"description": "Press releases from the Department of Veteransn Affairs"
     }      
   ]
