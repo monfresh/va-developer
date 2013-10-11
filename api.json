@@ -3,19 +3,29 @@
   "espiVersion": "1.1",
   "apis": [
     {
+    	"name": "VA Acronyms",
+      	"path": "http://api.va.publicprivatesector.org/swagger/va-data/acronyms/acronyms",
+      	"description": "Resources about Department of Veterans Affairs Acronyms"
+    },  
+    {
     	"name": "VA Facilities",
       	"path": "http://api.va.publicprivatesector.org/swagger/va-data/facilities/facilities",
       	"description": "Resources about Department of Veterans Affairs facilities"
-    },
-    {
-    	"name": "VA Programs",
-      	"path": "http://api.va.publicprivatesector.org/swagger/va-data/press/press",
-      	"description": "Resources about Department of Veteransn Affairs programs"
-    },
+    },  
     {
     	"name": "VA Press Releases",
       	"path": "http://api.va.publicprivatesector.org/swagger/va-data/programs/programs",
       	"description": "Press releases from the Department of Veteransn Affairs"
-    }      
+    },      
+    {
+    	"name": "VA Population",
+      	"path": "http://api.va.publicprivatesector.org/swagger/va-data/population/population",
+      	"description": "Resources about Department of Veteransn Affairs Population"
+    },    
+    {
+    	"name": "VA Programs",
+      	"path": "http://api.va.publicprivatesector.org/swagger/va-data/press/press",
+      	"description": "Resources about Department of Veteransn Affairs programs"
+    }    
   ]
 }
