@@ -13,19 +13,24 @@
       	"description": "Resources about Department of Veterans Affairs facilities"
     },  
     {
+    	"name": "VA Jobs",
+      	"path": "http://api.va.publicprivatesector.org/swagger/va-data/jobs/jobs",
+      	"description": "Resources about Department of Veterans Affairs Jobs"
+    },      
+    {
     	"name": "VA Press Releases",
       	"path": "http://api.va.publicprivatesector.org/swagger/va-data/programs/programs",
-      	"description": "Press releases from the Department of Veteransn Affairs"
+      	"description": "Press releases from the Department of Veterans Affairs"
     },      
     {
     	"name": "VA Population",
       	"path": "http://api.va.publicprivatesector.org/swagger/va-data/population/population",
-      	"description": "Resources about Department of Veteransn Affairs Population"
+      	"description": "Resources about Department of Veterans Affairs Population"
     },    
     {
     	"name": "VA Programs",
       	"path": "http://api.va.publicprivatesector.org/swagger/va-data/press/press",
-      	"description": "Resources about Department of Veteransn Affairs programs"
+      	"description": "Resources about Department of Veterans Affairs programs"
     }    
   ]
 }
