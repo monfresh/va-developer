@@ -53,7 +53,8 @@ overview: true
                 $.each(val['distribution'], function(key2, val2) {   
                     
                     var template2 = $('#dataAccessTemplate').html();
-                    var html2 = Mustache.to_html(template2, val2);                    
+                    var html2 = Mustache.to_html(template2, val2);
+                    alert('#listing-'+id);                    
                     $('#listing-'+id).append(html2); 
                     
                     });                      
