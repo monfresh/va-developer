@@ -12,7 +12,7 @@ overview: true
 </div>
 <div class="row-fluid">
     <div class="span1">&nbsp;</div>
-    <div class="span4">
+    <div class="span6">
         
         {% raw  %}
         <script id="apiListingTemplate" type="text/template">       
@@ -42,7 +42,7 @@ overview: true
         <br />
         <p><a class="btn" href="#">View APIs &raquo;</a></p>
     </div><!--/span-->
-    <div class="span4">
+    <div class="span6">
         
         {% raw  %}
         <script id="dataListingTemplate" type="text/template">       
@@ -71,35 +71,5 @@ overview: true
         </div>
         <br />
         <p><a class="btn" href="#">View Data &raquo;</a></p>
-    </div>
-    <div class="span3">
-        
-        {% raw  %}
-        <script id="codeListingTemplate" type="text/template">       
-            <li><a href="code/index.html?#{{Name}}"><strong>{{Name}}</strong></a></li>                                                                                               
-        </script>
-        {% endraw %}        
-        
-        <script type="text/javascript">
-        function listCode()
-            {
-            $.getJSON('data/code.json', function(data) {
-                toggle = 0;
-                 $.each(data['Code'], function(key, val) {
-                    var template = $('#codeListingTemplate').html();
-                    var html = Mustache.to_html(template, val);
-                    $('#codeListing').append(html);                          
-                    });
-                });
-            } 
-        listCode();
-        </script>          
-        
-        <h2>Code</h2>
-        <div style="height: 150px; overflow: auto;">
-        <ul id="codeListing"> </ul>         
-        </div>
-        <br />
-        <p><a class="btn" href="code/">View Code &raquo;</a></p>
     </div>
 </div>
