@@ -28,11 +28,28 @@
         "accessLevel": "public",
         "distribution": [
             {
-                "accessURL": "http://kinlane.github.io/va-developer/data/facilities.json",
+                "accessURL": "https://raw.github.com/va-data/va-facilities/master/facilities.json",
                 "format": "json"
             }
         ]
     },
+    {
+        "title": "Facility Types",
+        "description": "Version 1.0",
+        "keyword": "Veterans,Facilities,Types",
+        "modified": "2013-09-01 06:00:00",
+        "publisher": "US Department of Veterans Affairs",
+        "person": "Kin Lane",
+        "mbox": "kin.lane@va.gov",
+        "identifier": "2",
+        "accessLevel": "public",
+        "distribution": [
+            {
+                "accessURL": "https://raw.github.com/va-data/va-facilities/master/facility-type.json",
+                "format": "json"
+            }
+        ]
+    },    
     {
         "title": "Programs",
         "description": "Version 1.0",
@@ -45,11 +62,28 @@
         "accessLevel": "public",
         "distribution": [
             {
-                "accessURL": "http://kinlane.github.io/va-developer/data/programs.json",
+                "accessURL": "https://raw.github.com/va-data/va-programs/master/programs.json",
                 "format": "json"
             }
         ]
     },
+    {
+        "title": "Program Types",
+        "description": "Version 1.0",
+        "keyword": "Veterans,Programs",
+        "modified": "2013-09-01 06:00:00",
+        "publisher": "US Department of Veterans Affairs",
+        "person": "Kin Lane",
+        "mbox": "kin.lane@va.gov",
+        "identifier": "3",
+        "accessLevel": "public",
+        "distribution": [
+            {
+                "accessURL": "https://raw.github.com/va-data/va-programs/master/program-type.json",
+                "format": "json"
+            }
+        ]
+    },    
     {
         "title": "Press",
         "description": "Version 1.0",
@@ -63,6 +97,380 @@
         "distribution": [
             {
                 "accessURL": "http://kinlane.github.io/va-developer/data/press.json",
+                "format": "json"
+            }
+        ]
+    },    
+    {
+        "title": "Benefits Compensation Resources",
+        "description": "Version 1.0",
+        "keyword": "Veterans,Benefits,Compensation",
+        "modified": "2013-09-01 06:00:00",
+        "publisher": "US Department of Veterans Affairs",
+        "person": "Kin Lane",
+        "mbox": "kin.lane@va.gov",
+        "identifier": "4",
+        "accessLevel": "public",
+        "distribution": [
+            {
+                "accessURL": "https://raw.github.com/va-data/va-resources/master/benefits-compensation.json",
+                "format": "json"
+            }
+        ]
+    },    
+    {
+        "title": "Education Training Resources",
+        "description": "Version 1.0",
+        "keyword": "Veterans,Education,Resources",
+        "modified": "2013-09-01 06:00:00",
+        "publisher": "US Department of Veterans Affairs",
+        "person": "Kin Lane",
+        "mbox": "kin.lane@va.gov",
+        "identifier": "4",
+        "accessLevel": "public",
+        "distribution": [
+            {
+                "accessURL": "https://raw.github.com/va-data/va-resources/master/education-training.json",
+                "format": "json"
+            }
+        ]
+    },    
+    {
+        "title": "Employment Resources",
+        "description": "Version 1.0",
+        "keyword": "Veterans,Employment,Resources",
+        "modified": "2013-09-01 06:00:00",
+        "publisher": "US Department of Veterans Affairs",
+        "person": "Kin Lane",
+        "mbox": "kin.lane@va.gov",
+        "identifier": "4",
+        "accessLevel": "public",
+        "distribution": [
+            {
+                "accessURL": "https://raw.github.com/va-data/va-resources/master/employment.json",
+                "format": "json"
+            }
+        ]
+    },    
+    {
+        "title": "Family Caregiver Support Resources",
+        "description": "Version 1.0",
+        "keyword": "Veterans,Family,Caregiver,Resources",
+        "modified": "2013-09-01 06:00:00",
+        "publisher": "US Department of Veterans Affairs",
+        "person": "Kin Lane",
+        "mbox": "kin.lane@va.gov",
+        "identifier": "4",
+        "accessLevel": "public",
+        "distribution": [
+            {
+                "accessURL": "https://raw.github.com/va-data/va-resources/master/family-caregiver-support.json",
+                "format": "json"
+            }
+        ]
+    },    
+    {
+        "title": "Health Resources",
+        "description": "Version 1.0",
+        "keyword": "Veterans,Health,Resources",
+        "modified": "2013-09-01 06:00:00",
+        "publisher": "US Department of Veterans Affairs",
+        "person": "Kin Lane",
+        "mbox": "kin.lane@va.gov",
+        "identifier": "4",
+        "accessLevel": "public",
+        "distribution": [
+            {
+                "accessURL": "https://raw.github.com/va-data/va-resources/master/health.json",
+                "format": "json"
+            }
+        ]
+    },    
+    {
+        "title": "Homeless Resources",
+        "description": "Version 1.0",
+        "keyword": "Veterans,Homeless,Resources",
+        "modified": "2013-09-01 06:00:00",
+        "publisher": "US Department of Veterans Affairs",
+        "person": "Kin Lane",
+        "mbox": "kin.lane@va.gov",
+        "identifier": "4",
+        "accessLevel": "public",
+        "distribution": [
+            {
+                "accessURL": "https://raw.github.com/va-data/va-resources/master/homeless-assistance.json",
+                "format": "json"
+            }
+        ]
+    },    
+    {
+        "title": "Housing Resources",
+        "description": "Version 1.0",
+        "keyword": "Veterans,Housing,Resources",
+        "modified": "2013-09-01 06:00:00",
+        "publisher": "US Department of Veterans Affairs",
+        "person": "Kin Lane",
+        "mbox": "kin.lane@va.gov",
+        "identifier": "4",
+        "accessLevel": "public",
+        "distribution": [
+            {
+                "accessURL": "https://raw.github.com/va-data/va-resources/master/housing.json",
+                "format": "json"
+            }
+        ]
+    },    
+    {
+        "title": "Other Resources",
+        "description": "Version 1.0",
+        "keyword": "Veterans,Other,Resources",
+        "modified": "2013-09-01 06:00:00",
+        "publisher": "US Department of Veterans Affairs",
+        "person": "Kin Lane",
+        "mbox": "kin.lane@va.gov",
+        "identifier": "4",
+        "accessLevel": "public",
+        "distribution": [
+            {
+                "accessURL": "https://raw.github.com/va-data/va-resources/master/other-services.json",
+                "format": "json"
+            }
+        ]
+    },    
+    {
+        "title": "Travel and Transportation Resources",
+        "description": "Version 1.0",
+        "keyword": "Veterans,Travel,Transportation,Resources",
+        "modified": "2013-09-01 06:00:00",
+        "publisher": "US Department of Veterans Affairs",
+        "person": "Kin Lane",
+        "mbox": "kin.lane@va.gov",
+        "identifier": "4",
+        "accessLevel": "public",
+        "distribution": [
+            {
+                "accessURL": "https://raw.github.com/va-data/va-resources/master/transportation-travel.json",
+                "format": "json"
+            }
+        ]
+    },    
+    {
+        "title": "Jobs",
+        "description": "Version 1.0",
+        "keyword": "Veterans,Jobs,Employment,Resources",
+        "modified": "2013-09-01 06:00:00",
+        "publisher": "US Department of Veterans Affairs",
+        "person": "Kin Lane",
+        "mbox": "kin.lane@va.gov",
+        "identifier": "4",
+        "accessLevel": "public",
+        "distribution": [
+            {
+                "accessURL": "https://raw.github.com/va-data/va-jobs/master/jobs.json",
+                "format": "json"
+            }
+        ]
+    },    
+    {
+        "title": "Veteran Population By Congressional District",
+        "description": "Version 1.0",
+        "keyword": "Veterans,Population,Resources",
+        "modified": "2013-09-01 06:00:00",
+        "publisher": "US Department of Veterans Affairs",
+        "person": "Kin Lane",
+        "mbox": "kin.lane@va.gov",
+        "identifier": "4",
+        "accessLevel": "public",
+        "distribution": [
+            {
+                "accessURL": "https://github.com/va-data/va-population/edit/master/congressional-veteran-population-111th.json",
+                "format": "json"
+            }
+        ]
+    },    
+    {
+        "title": "Veteran Population By County",
+        "description": "Version 1.0",
+        "keyword": "Veterans,Population,Resources",
+        "modified": "2013-09-01 06:00:00",
+        "publisher": "US Department of Veterans Affairs",
+        "person": "Kin Lane",
+        "mbox": "kin.lane@va.gov",
+        "identifier": "4",
+        "accessLevel": "public",
+        "distribution": [
+            {
+                "accessURL": "https://github.com/va-data/va-population/edit/master/county-veteran-population.json",
+                "format": "json"
+            }
+        ]
+    },    
+    {
+        "title": "National Veteran Population By Age Group",
+        "description": "Version 1.0",
+        "keyword": "Veterans,Population,Resources",
+        "modified": "2013-09-01 06:00:00",
+        "publisher": "US Department of Veterans Affairs",
+        "person": "Kin Lane",
+        "mbox": "kin.lane@va.gov",
+        "identifier": "4",
+        "accessLevel": "public",
+        "distribution": [
+            {
+                "accessURL": "https://github.com/va-data/va-population/edit/master/national-veteran-population-age-group.json",
+                "format": "json"
+            }
+        ]
+    },    
+    {
+        "title": "National Veteran Population By Branch of Service",
+        "description": "Version 1.0",
+        "keyword": "Veterans,Population,Resources",
+        "modified": "2013-09-01 06:00:00",
+        "publisher": "US Department of Veterans Affairs",
+        "person": "Kin Lane",
+        "mbox": "kin.lane@va.gov",
+        "identifier": "4",
+        "accessLevel": "public",
+        "distribution": [
+            {
+                "accessURL": "https://github.com/va-data/va-population/edit/master/national-veteran-population-branch-of-service.json",
+                "format": "json"
+            }
+        ]
+    },    
+    {
+        "title": "National Veteran Population By Period Served",
+        "description": "Version 1.0",
+        "keyword": "Veterans,Population,Resources",
+        "modified": "2013-09-01 06:00:00",
+        "publisher": "US Department of Veterans Affairs",
+        "person": "Kin Lane",
+        "mbox": "kin.lane@va.gov",
+        "identifier": "4",
+        "accessLevel": "public",
+        "distribution": [
+            {
+                "accessURL": "https://github.com/va-data/va-population/edit/master/national-veteran-population-period-served.json",
+                "format": "json"
+            }
+        ]
+    },    
+    {
+        "title": "National Veteran Population By Race",
+        "description": "Version 1.0",
+        "keyword": "Veterans,Population,Resources",
+        "modified": "2013-09-01 06:00:00",
+        "publisher": "US Department of Veterans Affairs",
+        "person": "Kin Lane",
+        "mbox": "kin.lane@va.gov",
+        "identifier": "4",
+        "accessLevel": "public",
+        "distribution": [
+            {
+                "accessURL": "https://github.com/va-data/va-population/edit/master/national-veteran-population-race.json",
+                "format": "json"
+            }
+        ]
+    },    
+    {
+        "title": "National Veteran Population By Rank",
+        "description": "Version 1.0",
+        "keyword": "Veterans,Population,Resources",
+        "modified": "2013-09-01 06:00:00",
+        "publisher": "US Department of Veterans Affairs",
+        "person": "Kin Lane",
+        "mbox": "kin.lane@va.gov",
+        "identifier": "4",
+        "accessLevel": "public",
+        "distribution": [
+            {
+                "accessURL": "https://github.com/va-data/va-population/edit/master/national-veteran-population-rank.json",
+                "format": "json"
+            }
+        ]
+    },    
+    {
+        "title": "State Veteran Population By Age Group",
+        "description": "Version 1.0",
+        "keyword": "Veterans,Population,Resources",
+        "modified": "2013-09-01 06:00:00",
+        "publisher": "US Department of Veterans Affairs",
+        "person": "Kin Lane",
+        "mbox": "kin.lane@va.gov",
+        "identifier": "4",
+        "accessLevel": "public",
+        "distribution": [
+            {
+                "accessURL": "https://github.com/va-data/va-population/edit/master/state-veteran-population-age-group.json",
+                "format": "json"
+            }
+        ]
+    },    
+    {
+        "title": "State Veteran Population By Period Served",
+        "description": "Version 1.0",
+        "keyword": "Veterans,Population,Resources",
+        "modified": "2013-09-01 06:00:00",
+        "publisher": "US Department of Veterans Affairs",
+        "person": "Kin Lane",
+        "mbox": "kin.lane@va.gov",
+        "identifier": "4",
+        "accessLevel": "public",
+        "distribution": [
+            {
+                "accessURL": "https://github.com/va-data/va-population/edit/master/state-veteran-population-period-served.json",
+                "format": "json"
+            }
+        ]
+    },    
+    {
+        "title": "State Veteran Population By Race",
+        "description": "Version 1.0",
+        "keyword": "Veterans,Population,Resources",
+        "modified": "2013-09-01 06:00:00",
+        "publisher": "US Department of Veterans Affairs",
+        "person": "Kin Lane",
+        "mbox": "kin.lane@va.gov",
+        "identifier": "4",
+        "accessLevel": "public",
+        "distribution": [
+            {
+                "accessURL": "https://github.com/va-data/va-population/edit/master/state-veteran-population-race.json",
+                "format": "json"
+            }
+        ]
+    },    
+    {
+        "title": "Veteran Population By VISN",
+        "description": "Version 1.0",
+        "keyword": "Veterans,Population,Resources",
+        "modified": "2013-09-01 06:00:00",
+        "publisher": "US Department of Veterans Affairs",
+        "person": "Kin Lane",
+        "mbox": "kin.lane@va.gov",
+        "identifier": "4",
+        "accessLevel": "public",
+        "distribution": [
+            {
+                "accessURL": "https://github.com/va-data/va-population/edit/master/veteran-population-by-veterans-integrated-service-network.json",
+                "format": "json"
+            }
+        ]
+    },    
+    {
+        "title": "Department of Veterans Affairs Acronyms",
+        "description": "Version 1.0",
+        "keyword": "Veterans,Acronyms,Resources",
+        "modified": "2013-09-01 06:00:00",
+        "publisher": "US Department of Veterans Affairs",
+        "person": "Kin Lane",
+        "mbox": "kin.lane@va.gov",
+        "identifier": "4",
+        "accessLevel": "public",
+        "distribution": [
+            {
+                "accessURL": "https://raw.github.com/va-data/va-acronyms/master/acronyms.json",
                 "format": "json"
             }
         ]
