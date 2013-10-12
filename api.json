@@ -31,6 +31,11 @@
     	"name": "VA Programs",
       	"path": "http://api.va.publicprivatesector.org/swagger/va-data/press/press",
       	"description": "Resources about Department of Veterans Affairs programs"
-    }    
+    },
+    {
+    	"name": "VA Resources",
+      	"path": "http://api.va.publicprivatesector.org/swagger/va-data/resources/resources",
+      	"description": "Department of Veterans Affairs Resources"
+    }  
   ]
 }
