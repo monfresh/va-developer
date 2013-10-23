@@ -49,7 +49,7 @@
                 "format": "json"
             }
         ]
-    },    
+    },
     {
         "title": "Programs",
         "description": "Version 1.0",
@@ -83,7 +83,7 @@
                 "format": "json"
             }
         ]
-    },    
+    },
     {
         "title": "Press",
         "description": "Version 1.0",
@@ -100,7 +100,7 @@
                 "format": "json"
             }
         ]
-    },    
+    },
     {
         "title": "Benefits Compensation Resources",
         "description": "Version 1.0",
@@ -117,7 +117,7 @@
                 "format": "json"
             }
         ]
-    },    
+    },
     {
         "title": "Education Training Resources",
         "description": "Version 1.0",
@@ -134,7 +134,7 @@
                 "format": "json"
             }
         ]
-    },    
+    },
     {
         "title": "Employment Resources",
         "description": "Version 1.0",
@@ -151,7 +151,7 @@
                 "format": "json"
             }
         ]
-    },    
+    },
     {
         "title": "Family Caregiver Support Resources",
         "description": "Version 1.0",
@@ -168,7 +168,7 @@
                 "format": "json"
             }
         ]
-    },    
+    },
     {
         "title": "Health Resources",
         "description": "Version 1.0",
@@ -185,7 +185,7 @@
                 "format": "json"
             }
         ]
-    },    
+    },
     {
         "title": "Homeless Resources",
         "description": "Version 1.0",
@@ -202,7 +202,7 @@
                 "format": "json"
             }
         ]
-    },    
+    },
     {
         "title": "Housing Resources",
         "description": "Version 1.0",
@@ -219,7 +219,7 @@
                 "format": "json"
             }
         ]
-    },    
+    },
     {
         "title": "Other Resources",
         "description": "Version 1.0",
@@ -236,7 +236,7 @@
                 "format": "json"
             }
         ]
-    },    
+    },
     {
         "title": "Travel and Transportation Resources",
         "description": "Version 1.0",
@@ -253,7 +253,7 @@
                 "format": "json"
             }
         ]
-    },    
+    },
     {
         "title": "Jobs",
         "description": "Version 1.0",
@@ -270,7 +270,7 @@
                 "format": "json"
             }
         ]
-    },    
+    },
     {
         "title": "Veteran Population By Congressional District",
         "description": "Version 1.0",
@@ -283,11 +283,11 @@
         "accessLevel": "public",
         "distribution": [
             {
-                "accessURL": "https://github.com/va-data/va-population/edit/master/congressional-veteran-population-111th.json",
+                "accessURL": "https://raw.github.com/va-data/va-population/master/congressional-veteran-population-111th.json",
                 "format": "json"
             }
         ]
-    },    
+    },
     {
         "title": "Veteran Population By County",
         "description": "Version 1.0",
@@ -300,11 +300,11 @@
         "accessLevel": "public",
         "distribution": [
             {
-                "accessURL": "https://github.com/va-data/va-population/edit/master/county-veteran-population.json",
+                "accessURL": "https://raw.github.com/va-data/va-population/master/county-veteran-population.json",
                 "format": "json"
             }
         ]
-    },    
+    },
     {
         "title": "National Veteran Population By Age Group",
         "description": "Version 1.0",
@@ -317,11 +317,11 @@
         "accessLevel": "public",
         "distribution": [
             {
-                "accessURL": "https://github.com/va-data/va-population/edit/master/national-veteran-population-age-group.json",
+                "accessURL": "https://raw.github.com/va-data/va-population/master/national-veteran-population-age-group.json",
                 "format": "json"
             }
         ]
-    },    
+    },
     {
         "title": "National Veteran Population By Branch of Service",
         "description": "Version 1.0",
@@ -334,11 +334,11 @@
         "accessLevel": "public",
         "distribution": [
             {
-                "accessURL": "https://github.com/va-data/va-population/edit/master/national-veteran-population-branch-of-service.json",
+                "accessURL": "https://raw.github.com/va-data/va-population/master/national-veteran-population-branch-of-service.json",
                 "format": "json"
             }
         ]
-    },    
+    },
     {
         "title": "National Veteran Population By Period Served",
         "description": "Version 1.0",
@@ -351,11 +351,11 @@
         "accessLevel": "public",
         "distribution": [
             {
-                "accessURL": "https://github.com/va-data/va-population/edit/master/national-veteran-population-period-served.json",
+                "accessURL": "https://raw.github.com/va-data/va-population/master/national-veteran-population-period-served.json",
                 "format": "json"
             }
         ]
-    },    
+    },
     {
         "title": "National Veteran Population By Race",
         "description": "Version 1.0",
@@ -368,11 +368,11 @@
         "accessLevel": "public",
         "distribution": [
             {
-                "accessURL": "https://github.com/va-data/va-population/edit/master/national-veteran-population-race.json",
+                "accessURL": "https://raw.github.com/va-data/va-population/master/national-veteran-population-race.json",
                 "format": "json"
             }
         ]
-    },    
+    },
     {
         "title": "National Veteran Population By Rank",
         "description": "Version 1.0",
@@ -385,11 +385,11 @@
         "accessLevel": "public",
         "distribution": [
             {
-                "accessURL": "https://github.com/va-data/va-population/edit/master/national-veteran-population-rank.json",
+                "accessURL": "https://raw.github.com/va-data/va-population/master/national-veteran-population-rank.json",
                 "format": "json"
             }
         ]
-    },    
+    },
     {
         "title": "State Veteran Population By Age Group",
         "description": "Version 1.0",
@@ -402,11 +402,11 @@
         "accessLevel": "public",
         "distribution": [
             {
-                "accessURL": "https://github.com/va-data/va-population/edit/master/state-veteran-population-age-group.json",
+                "accessURL": "https://raw.github.com/va-data/va-population/master/state-veteran-population-age-group.json",
                 "format": "json"
             }
         ]
-    },    
+    },
     {
         "title": "State Veteran Population By Period Served",
         "description": "Version 1.0",
@@ -419,11 +419,11 @@
         "accessLevel": "public",
         "distribution": [
             {
-                "accessURL": "https://github.com/va-data/va-population/edit/master/state-veteran-population-period-served.json",
+                "accessURL": "https://raw.github.com/va-data/va-population/master/state-veteran-population-period-served.json",
                 "format": "json"
             }
         ]
-    },    
+    },
     {
         "title": "State Veteran Population By Race",
         "description": "Version 1.0",
@@ -436,11 +436,11 @@
         "accessLevel": "public",
         "distribution": [
             {
-                "accessURL": "https://github.com/va-data/va-population/edit/master/state-veteran-population-race.json",
+                "accessURL": "https://raw.github.com/va-data/va-population/master/state-veteran-population-race.json",
                 "format": "json"
             }
         ]
-    },    
+    },
     {
         "title": "Veteran Population By VISN",
         "description": "Version 1.0",
@@ -453,11 +453,11 @@
         "accessLevel": "public",
         "distribution": [
             {
-                "accessURL": "https://github.com/va-data/va-population/edit/master/veteran-population-by-veterans-integrated-service-network.json",
+                "accessURL": "https://raw.github.com/va-data/va-population/master/veteran-population-by-veterans-integrated-service-network.json",
                 "format": "json"
             }
         ]
-    },    
+    },
     {
         "title": "Department of Veterans Affairs Acronyms",
         "description": "Version 1.0",
